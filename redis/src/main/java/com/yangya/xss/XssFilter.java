@@ -23,7 +23,7 @@ import java.util.Set;
 public class XssFilter implements Filter {
 
     private static final Set<String> ALLOWED_PATHS = Collections.unmodifiableSet(new HashSet<>(
-            Arrays.asList("/main/excludefilter", "/brand/**", "/logout", "/register")));
+            Arrays.asList("/main/excludefilter", "/brand/**", "/logout", "/register","/v3pay/**","/v3pompay/**")));
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {

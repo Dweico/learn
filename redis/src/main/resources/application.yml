@@ -70,3 +70,25 @@ secure:
       - /swagger-resources/**
       - /v2/api-docs/**
       - /actuator/**
+
+#wx:
+#  pay:
+#    apiV3Key: WSD57KkSGVlrKIXvRleA4zEsXYwS65WH
+#    appId: wx964a6b4ef96f4262
+#    certSerialNo: 20892443DCFD03BC110751DC1E4F16ACE0DFC2EB
+#    keyPath: apiclient_cert.p12
+#    mchId: 1603632316
+#    mchKey: WSD57KkSGVlrKIXvRleA4zEsXYwS65WH
+#    notifyUrl: https://tyou.xiudo.cn/api/notify//wxmall/order
+#    privateCertPath: apiclient_cert.pem
+#    privateKeyPath: apiclient_key.pem
+#    redirectUrl: http://tyou.xiudo.cn
+#    refundUrl: https://tyou.xiudo.cn/api/notify/wxmall/refund
+wx:
+  app-id: wx964a6b4ef96f4262
+  pay:
+    api-v3-key: WSD57KkSGVlrKIXvRleA4zEsXYwS65WH
+    certificate-serial-no: 20892443DCFD03BC110751DC1E4F16ACE0DFC2EB
+    mchId: 1603632316
+    notify-url: https://xxx/支付结果通知地址
+    private-key-path: classpath:/certdy/apiclient_key.pem
